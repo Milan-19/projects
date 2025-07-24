@@ -1,0 +1,340 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Dead Man's Switch: Node.js Process Management",
+      "author": "John Smith",
+      "content": "Why did the Node.js process die? Because it couldn't handle the pressure! Learn how to implement graceful shutdowns before your server ghosts you forever...",
+      "date": "2025-07-24",
+      "tags": ["nodejs", "processes", "dark-humor", "production"]
+    },
+    {
+      "id": 2,
+      "title": "MongoDB: The Data Graveyard",
+      "author": "Emma Wilson",
+      "content": "Where do deleted documents go? To the MongoDB cemetery, where they're never truly at REST. Here's how to properly handle soft deletes...",
+      "date": "2025-07-23",
+      "tags": ["mongodb", "data-management", "dark-humor"]
+    },
+    {
+      "id": 3,
+      "title": "Express.js Middleware: The Chain of Pain",
+      "author": "David Kim",
+      "content": "Middleware is like a horror movie - one wrong move and everything dies. Let's explore error handling that doesn't end in tragedy...",
+      "date": "2025-07-22",
+      "tags": ["express", "middleware", "error-handling"]
+    },
+    {
+      "id": 4,
+      "title": "The Mongoose Massacre",
+      "author": "Alice Cooper",
+      "content": "My schema validation is so strict, it made my documents disappear. Here's a tale of data validation gone wrong and the bodies we buried in the process...",
+      "date": "2025-07-21",
+      "tags": ["mongodb", "mongoose", "dark-humor"]
+    },
+    {
+      "id": 5,
+      "title": "JWT: Just Waiting for Trouble",
+      "author": "Bob Reaper",
+      "content": "The only thing more dangerous than no authentication is bad authentication. Watch your tokens, they might stab you in the back...",
+      "date": "2025-07-20",
+      "tags": ["security", "jwt", "authentication", "horror"]
+    },
+    {
+      "id": 6,
+      "title": "The npm install of Doom",
+      "author": "Charlie Daemon",
+      "content": "node_modules is where dependencies go to die. One day, package-lock.json started speaking in tongues...",
+      "date": "2025-07-19",
+      "tags": ["nodejs", "npm", "dependencies", "dark-humor"]
+    },
+    {
+      "id": 7,
+      "title": "The Callback Hellraiser",
+      "author": "Danielle Nightmare",
+      "content": "Nested callbacks are like layers of horror - the deeper you go, the more twisted it gets. Surviving the descent into callback hell...",
+      "date": "2025-07-18",
+      "tags": ["nodejs", "callbacks", "async", "dark-humor"]
+    },
+    {
+      "id": 8,
+      "title": "The API Horror Show",
+      "author": "Eddie Terror",
+      "content": "Consuming APIs without documentation is like entering a haunted house with no flashlight. You never know what ghostly errors await...",
+      "date": "2025-07-17",
+      "tags": ["api", "http", "dark-humor"]
+    },
+    {
+      "id": 9,
+      "title": "The CSS Nightmare",
+      "author": "Fiona Fright",
+      "content": "CSS is the silent killer of web development - one minute you're styling a button, the next you're in a layout labyrinth from which there is no escape...",
+      "date": "2025-07-16",
+      "tags": ["css", "design", "dark-humor"]
+    },
+    {
+      "id": 10,
+      "title": "The HTML Horror Story",
+      "author": "George Ghost",
+      "content": "HTML is like a graveyard - full of dead links and missing tags. Let's resurrect your markup from the depths of despair...",
+      "date": "2025-07-15",
+      "tags": ["html", "markup", "dark-humor"]
+    },
+    {
+      "id": 11,
+      "title": "The SQL Injection Specter",
+      "author": "Hannah Haunt",
+      "content": "SQL injections are the poltergeists of the web - they can enter your site through the tiniest cracks and cause utter chaos. Here's how to exorcise them...",
+      "date": "2025-07-14",
+      "tags": ["sql", "security", "dark-humor"]
+    },
+    {
+      "id": 12,
+      "title": "The XSS Exorcism",
+      "author": "Ian Imp",
+      "content": "Cross-site scripting is like a possession - it takes over your site and uses it for evil. Learn the rites to banish these intruders...",
+      "date": "2025-07-13",
+      "tags": ["xss", "security", "dark-humor"]
+    },
+    {
+      "id": 13,
+      "title": "The CORS Curse",
+      "author": "Jill Jinx",
+      "content": "CORS is the curse that plagues every web developer. One wrong header and your requests are doomed to wander the void...",
+      "date": "2025-07-12",
+      "tags": ["cors", "http", "dark-humor"]
+    },
+    {
+      "id": 14,
+      "title": "The DevOps Doppelgänger",
+      "author": "Kevin Khaos",
+      "content": "DevOps is like having a doppelgänger - one minute it's helping you, the next it's sabotaging your every move. A tale of CI/CD terror...",
+      "date": "2025-07-11",
+      "tags": ["devops", "ci-cd", "dark-humor"]
+    },
+    {
+      "id": 15,
+      "title": "The Docker Disaster",
+      "author": "Laura Lurker",
+      "content": "Docker is the ship that never leaves the harbor - so many containers, yet nothing ever gets deployed. Anchors aweigh to the land of broken dreams...",
+      "date": "2025-07-10",
+      "tags": ["docker", "containers", "dark-humor"]
+    },
+    {
+      "id": 16,
+      "title": "The Kubernetes Killing Field",
+      "author": "Mike Murdoch",
+      "content": "Kubernetes is the battlefield where microservices go to die - services fighting services, pods in disarray, a true horror show...",
+      "date": "2025-07-09",
+      "tags": ["kubernetes", "microservices", "dark-humor"]
+    },
+    {
+      "id": 17,
+      "title": "The Helm Hell",
+      "author": "Nina Nightmare",
+      "content": "Helm is the captain that abandons ship - one minute you're deploying smoothly, the next you're adrift in a sea of broken releases...",
+      "date": "2025-07-08",
+      "tags": ["helm", "kubernetes", "dark-humor"]
+    },
+    {
+      "id": 18,
+      "title": "The Istio Incident",
+      "author": "Oscar Omen",
+      "content": "Istio is the fog that descends upon the battlefield - one minute you see your services clearly, the next you're lost in a murky haze of virtual services and destination rules...",
+      "date": "2025-07-07",
+      "tags": ["istio", "service-mesh", "dark-humor"]
+    },
+    {
+      "id": 19,
+      "title": "The Envoy Enigma",
+      "author": "Paula Phantom",
+      "content": "Envoy is the riddle wrapped in a mystery inside an abstraction - deciphering its config is the true test of a developer's sanity...",
+      "date": "2025-07-06",
+      "tags": ["envoy", "proxy", "dark-humor"]
+    },
+    {
+      "id": 20,
+      "title": "The Sidecar Specter",
+      "author": "Quinn Quagmire",
+      "content": "The sidecar pattern is the ghost that haunts your architecture - always there, but rarely seen. A deep dive into the shadows of your service mesh...",
+      "date": "2025-07-05",
+      "tags": ["sidecar", "microservices", "dark-humor"]
+    },
+    {
+      "id": 21,
+      "title": "The Load Balancer Labyrinth",
+      "author": "Rick Revenant",
+      "content": "Load balancers are the minotaurs of the network - guarding the maze that leads to your servers. One wrong turn and you're lost forever...",
+      "date": "2025-07-04",
+      "tags": ["load-balancing", "networking", "dark-humor"]
+    },
+    {
+      "id": 22,
+      "title": "The Firewall Fiend",
+      "author": "Sam Specter",
+      "content": "Firewalls are the demons at the gates - they decide who enters and who burns. A misconfiguration could cost you your soul...",
+      "date": "2025-07-03",
+      "tags": ["firewall", "security", "dark-humor"]
+    },
+    {
+      "id": 23,
+      "title": "The VPN Vortex",
+      "author": "Tina Terror",
+      "content": "VPNs are the black holes of the internet - data goes in, but where does it come out? A journey through the void...",
+      "date": "2025-07-02",
+      "tags": ["vpn", "networking", "dark-humor"]
+    },
+    {
+      "id": 24,
+      "title": "The SSH Spectacle",
+      "author": "Uma Unseen",
+      "content": "SSH is the secret passage that could lead to treasure or traps. Ensure your keys are in order, or face the consequences...",
+      "date": "2025-07-01",
+      "tags": ["ssh", "security", "dark-humor"]
+    },
+    {
+      "id": 25,
+      "title": "The Git Graveyard",
+      "author": "Vera Void",
+      "content": "Git is the time machine that sometimes malfunctions - one minute you're in the present, the next you've committed to a past you don't remember...",
+      "date": "2025-06-30",
+      "tags": ["git", "version-control", "dark-humor"]
+    },
+    {
+      "id": 26,
+      "title": "The Branching Nightmare",
+      "author": "Will Wraith",
+      "content": "Git branches are the alternate realities of your repository - some are utopias, others are dystopias. Choose your merges wisely...",
+      "date": "2025-06-29",
+      "tags": ["git", "branching", "dark-humor"]
+    },
+    {
+      "id": 27,
+      "title": "The Merge Conflict Monster",
+      "author": "Xena Xenon",
+      "content": "Merge conflicts are the krakens of version control - they appear out of nowhere and drag your code to the depths. Learn to tame the beast...",
+      "date": "2025-06-28",
+      "tags": ["git", "merge-conflict", "dark-humor"]
+    },
+    {
+      "id": 28,
+      "title": "The Rebase Ritual",
+      "author": "Yara Yeti",
+      "content": "Git rebase is the ritualistic dance of developers - one misstep and you could lose your way (and your commits) in the process...",
+      "date": "2025-06-27",
+      "tags": ["git", "rebase", "dark-humor"]
+    },
+    {
+      "id": 29,
+      "title": "The Stash Specter",
+      "author": "Zane Zombie",
+      "content": "Git stash is the hiding spot for your code's skeletons - what secrets are you keeping from yourself?",
+      "date": "2025-06-26",
+      "tags": ["git", "stash", "dark-humor"]
+    },
+    {
+      "id": 30,
+      "title": "The Tagging Tombstone",
+      "author": "Abby Apparition",
+      "content": "Git tags are the tombstones in the graveyard of your repository - marking the spots where features were buried...",
+      "date": "2025-06-25",
+      "tags": ["git", "tagging", "dark-humor"]
+    },
+    {
+      "id": 31,
+      "title": "The CI/CD Phantom",
+      "author": "Benny Banshee",
+      "content": "Continuous Integration and Deployment is the ghostly figure that haunts your development process - always present, but rarely seen. A guide to spotting the signs...",
+      "date": "2025-06-24",
+      "tags": ["ci-cd", "devops", "dark-humor"]
+    },
+    {
+      "id": 32,
+      "title": "The Build Failure Fiend",
+      "author": "Carrie Corpse",
+      "content": "Build failures are the banshees of the coding world - their wails signal that something is terribly wrong. How to silence the screams...",
+      "date": "2025-06-23",
+      "tags": ["ci-cd", "builds", "dark-humor"]
+    },
+    {
+      "id": 33,
+      "title": "The Deployment Demon",
+      "author": "Danny Demon",
+      "content": "Deployments are the rituals that can summon great power or great peril. Ensure your incantations are correct, or face the wrath of the rollback...",
+      "date": "2025-06-22",
+      "tags": ["ci-cd", "deployment", "dark-humor"]
+    },
+    {
+      "id": 34,
+      "title": "The Monitoring Monster",
+      "author": "Ella Eerie",
+      "content": "Monitoring is the all-seeing eye that can be your greatest ally or your worst enemy. Here's how to keep the monster at bay...",
+      "date": "2025-06-21",
+      "tags": ["monitoring", "observability", "dark-humor"]
+    },
+    {
+      "id": 35,
+      "title": "The Logging Labyrinth",
+      "author": "Freddy Fright",
+      "content": "Logs are the breadcrumbs that lead you out of the woods or deeper into the nightmare. A guide to navigating the logging labyrinth...",
+      "date": "2025-06-20",
+      "tags": ["logging", "debugging", "dark-humor"]
+    },
+    {
+      "id": 36,
+      "title": "The Alerting Apparition",
+      "author": "Gina Ghost",
+      "content": "Alerts are the sirens that can either save you or drown you in a sea of notifications. How to manage alerts without losing your mind...",
+      "date": "2025-06-19",
+      "tags": ["monitoring", "alerts", "dark-humor"]
+    },
+    {
+      "id": 37,
+      "title": "The Incident Investigation",
+      "author": "Hank Haunter",
+      "content": "Incidents are the mysteries that need solving - don your detective hat and follow the clues to uncover the truth...",
+      "date": "2025-06-18",
+      "tags": ["incident-response", "dark-humor"]
+    },
+    {
+      "id": 38,
+      "title": "The Postmortem Phantom",
+      "author": "Ivy Illusion",
+      "content": "Postmortems are the autopsies of your projects - learn how to dissect the body of your work to prevent future deaths...",
+      "date": "2025-06-17",
+      "tags": ["postmortem", "dark-humor"]
+    },
+    {
+      "id": 39,
+      "title": "The WebSocket Wraith",
+      "author": "Ghost Protocol",
+      "content": "Connection refused? More like connection cursed! Tales from the real-time communication crypt...",
+      "date": "2025-06-16",
+      "tags": ["websockets", "real-time", "horror"]
+    },
+    {
+      "id": 40,
+      "title": "The Memory Leak Massacre",
+      "author": "Sarah Johnson",
+      "content": "Memory leaks are like zombies - they slowly eat your application's brains until nothing remains. Here's how to defend yourself...",
+      "date": "2025-06-15",
+      "tags": ["nodejs", "memory-management", "performance"]
+    },
+    {
+      "id": 41,
+      "title": "OAuth: The Identity Crisis",
+      "author": "Michael Chen",
+      "content": "Why did the OAuth token feel depressed? Identity issues! Let's dive into secure authentication flows that won't give you trust issues...",
+      "date": "2025-06-14",
+      "tags": ["security", "oauth", "authentication"]
+    },
+    {
+      "id": 42,
+      "title": "The Final Callback",
+      "author": "Lisa Anderson",
+      "content": "In the end, every callback must face its promise. A tale of async/await and redemption in Node.js...",
+      "date": "2025-06-13",
+      "tags": ["nodejs", "async", "promises", "dark-humor"]
+    }
+  ]
+}
